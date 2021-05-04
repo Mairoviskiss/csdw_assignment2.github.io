@@ -75,9 +75,9 @@ body {
     margin: 0 auto;
     display: flex; 
     flex-direction: column;
-    align-items: flex-start;
+    /*align-items: flex-start;*/
     line-height: 7rem;
-    text-align: left;
+    text-align: center;
    
  }
 
