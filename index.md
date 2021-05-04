@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <div id="page">
 <meta charset="utf-8">	
@@ -131,5 +131,3 @@
  </body>
 		
 
-
-</html>
