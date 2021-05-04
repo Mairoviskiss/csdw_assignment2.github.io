@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<div id="page">
+<meta charset="utf-8">	
+
+		<head>
+			<link rel="stylesheet" href="styleexample.css"/>
+			<title>Assignment 2 - Allan, Aurelia and Maira </title>
+		</head>
+		
+ <body>
+		<header id="masthead">
+						
+				<h1>All about Good<span class="changecolour">Food</span></h1>
+				</a>
+				
+
+		
+		</header> <!--end of masthead-->
+		
+<div class ="content">
+
+	<div id="maindiv">
+     <main>
+	
+       <div class="container">
+
+		   <article>	
+							
+			   <header>
+			      <h2> Think about yourself</h2>
+				  <p class="author"><em><strong>By Maíra Araújo</strong></em></p>
+			    
+		       </header>
+
+			 <div class="article">
+
+
+            <div id="recipe">
+                <div id="Firstfood">
+				
+                    <figure> 
+                        <img src ="images/food.jpeg" alt = "Food" width="300px" > 
+                        
+                     </figure>
+                </div> <!--end of Firstfood-->
+			         <p>
+						 So here I am to tell you about <strong><em>Shonda Rhimes</em></strong>. My personal Hero. <br>
+						 And no, she cannot read minds, she is not super strong, she cannot fly. But she has a great imagination.<br>
+						 She has to study a lot about heavy subjects in order to create the best series I've known. She must have a deep knowledge about 
+						 medicine and american law in these two particular cases that I will be talking about, and sometimes I even think she knows 
+						 more than a last year student. This woman is a <strong>GENIUS</strong>.  
+					 </p>
+       
+            </div> <!--end of div recipe-->
+             </div> <!--end of class article-->
+
+		</article>
+		
+	    </div>  <!--end of container div-->
+	
+	</main>
+   </div> <!--end of div maindiv-->
+   
+   		<div class="navigation">
+
+            <nav>
+					
+                <ul>
+                    
+                    <div>
+                        <li><a href="index.html"> Home</a> </li> 
+                    </div> 
+                    <div>
+                    <li><a href="aboutshonda.html">About us </a></li> 
+                    </div>
+                    <div>
+                    <li><a href="shondasworks.html">Chilli food </a></li> 
+                    </div>
+                    <div>
+                    <li><a href="teasers.html">HELLO GALERA </a></li>
+                    </div> 
+                    <div> 
+                    <li><a href="aboutme.html">About me </a></li> 
+                    </div>
+                    <div>
+                    <li><a href="contact.html">Contact me</a></li>
+                    </div>
+                    <div>
+                    <li><a href="bibliography.html">Bibliography</a></li> 
+                    </div>
+            
+                </ul>
+                     
+                 </nav> 
+	
+           </div> <!--end of navigation-->         
+           
+      <!--     <div id="FoodPorn">
+           <aside> 
+			
+			<div id="Firstfood">
+				
+               
+		<aside> 
+			
+			<div id="hbopicture">
+				
+                <figure> 
+                    <img src ="images/hbo-logo.jpg" alt = "hbo" width="300px" height="265"> 
+                    
+                 </figure>
+                
+			</div>
+		</aside>
+		
+	
+		</div> end of div FoodPorn-->	
+    
+
+</div> <!--end of content div-->
+	
+			<footer>
+				
+				<p> &reg; VERY UNIMPORTANT</p>
+
+		
+			</footer>						
+
+			
+ </body>
+		
+
+
+</html>
