@@ -5,11 +5,11 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
 #transparent {
     opacity: 0.8;
 
 }
+
 #masthead {
     width: 1000px;
     margin: 0 auto;
