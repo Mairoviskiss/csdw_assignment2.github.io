@@ -100,8 +100,7 @@ body {
 
 article h2 {
     font-size: 2rem;
-    margin: 0;
-   
+    margin: 0; 
 }
 
 
@@ -110,8 +109,12 @@ article header {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #7F7B82;
+    text-align: center;
 }
 
+.author {
+    font-size: 15px;
+}
 
 main .article-body p {
     font-family: Georgia;
