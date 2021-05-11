@@ -4,10 +4,7 @@ body {
     background-size:cover;    
     background-repeat: no-repeat;
     background-attachment: scroll;
-}
-#transparent {
-    opacity: 0.8;
-
+    opacity: 0.9;
 }
 
 #masthead {
@@ -139,8 +136,11 @@ main a {
     position: relative;
     float: left;
     margin-top: 0;
-
 }
+
+img {
+    opacity: 0.9;
+  }  
 
 .container #recipe {
     display: flex;
