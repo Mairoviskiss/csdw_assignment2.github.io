@@ -4,17 +4,13 @@ body {
     background-size:cover;    
     background-repeat: no-repeat;
     background-attachment: scroll;
-}
-#transparent {
-    opacity: 0.8;
-
+    opacity: 0.9;
 }
 
 #masthead {
     width: 1000px;
     margin: 0 auto;
     height: 200px;
-    /*background-image: url("images/headerbackground.jpg");*/
     margin: 0 auto;
     background-position: center;
     background-size: cover;    
@@ -23,10 +19,7 @@ body {
     
 }
 
-.changecolour {
-    color: #eeebeb;
-}
-
+/*                                   DO YOU THINK WE CAN DELETE THIS?                  
 #masthead h1 {
     color: rgb(24, 17, 17);
     font-size: 4rem;
@@ -36,7 +29,7 @@ body {
    position: relative;
    left: 90px;
 
-}
+}*/
 
 .content {
     width: 1048px;
@@ -70,8 +63,6 @@ body {
     justify-content: flex-start;
     flex-direction: column;
     float: left;
-
-   
 }
 
 
@@ -81,7 +72,6 @@ body {
     margin: 0 auto;
     display: flex; 
     flex-direction: column;
-    /*align-items: flex-start;*/
     line-height: 7rem;
     text-align: center;
    
@@ -113,6 +103,11 @@ article header {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #7F7B82;
+    text-align: center;
+}
+
+.author {
+    font-size: 15px;
 }
 
 
@@ -174,7 +169,5 @@ footer {
 
 footer a {
     color: white; 
-    background-color:#172121;
-
-    
+    background-color:#172121;  
 }
