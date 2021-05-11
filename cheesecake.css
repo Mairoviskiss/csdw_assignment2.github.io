@@ -3,7 +3,7 @@ body {
     background-image: url("images/background.jpg");     
     background-size:cover;    
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 #transparent {
     opacity: 0.8;
@@ -62,7 +62,7 @@ body {
  .navigation{
 
     background-color: #172121;
-    padding: 1rem;
+    padding: 2rem;
     border-width: 2px;
     border-style: solid;
     width: 300px;
