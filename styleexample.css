@@ -142,6 +142,9 @@ main a {
     text-align: justify;
 }
 
+.container #recipetext {
+    padding: 15px;
+}
 
 .article-footer {
     text-align: right;
