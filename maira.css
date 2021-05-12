@@ -195,3 +195,80 @@ footer a {
 
     
 }
+
+
+/* DIFFERENT SCREENS */
+
+/* MOBILE */
+
+@media screen and (max-width: 480px) {
+
+    .container {
+ 
+        width: 320px;
+ 
+    }
+ 
+ }
+ 
+ /* TABLETS */
+ 
+ @media screen and (min-width: 481px) and (max-width: 720px) {
+ 
+    body {
+ 
+        width: 480px;
+ 
+    }
+ 
+ }
+ 
+ /* SMALL DESKTOP OR LARGE TABLETS */
+ 
+ @media screen and (min-width: 721px) and (max-width: 960px) {
+ 
+    body {
+ 
+        width: 720px;
+ 
+    }
+ 
+ }
+ 
+ /* STANDARD DESKTOP */
+ 
+ @media screen and (min-width: 961px) and (max-width: 1200px) {
+ 
+    body {
+ 
+        width: 960px;
+ 
+    }
+ 
+ }
+ 
+ /* LARGE DESKTOP */
+ 
+ @media screen and (min-width: 1201px) and (max-width: 1600px) {
+ 
+    .body {
+ 
+        width: 1200px;
+ 
+    }
+ 
+ }
+ 
+ /* EXTRA LARGE DESKTOP */
+ 
+ @media screen and (min-width: 1601px) {
+ 
+    body {
+ 
+        width: 1600px;
+ 
+    }
+ 
+ }
+
+ 
