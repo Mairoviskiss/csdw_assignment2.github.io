@@ -191,7 +191,7 @@ footer a {
  
  @media screen and (min-width: 481px) and (max-width: 720px) {
  
-    .container {
+    body {
  
         width: 480px;
  
@@ -203,7 +203,7 @@ footer a {
  
  @media screen and (min-width: 721px) and (max-width: 960px) {
  
-    .container {
+    body {
  
         width: 720px;
  
@@ -215,7 +215,7 @@ footer a {
  
  @media screen and (min-width: 961px) and (max-width: 1200px) {
  
-    .container {
+    body {
  
         width: 960px;
  
@@ -227,7 +227,7 @@ footer a {
  
  @media screen and (min-width: 1201px) and (max-width: 1600px) {
  
-    .container {
+    .body {
  
         width: 1200px;
  
@@ -239,7 +239,7 @@ footer a {
  
  @media screen and (min-width: 1601px) {
  
-    .container {
+    body {
  
         width: 1600px;
  
