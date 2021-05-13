@@ -133,17 +133,13 @@ main a {
     margin-top: 0;
 }
 
-/* {box-sizing: border-box;
+/* {box-sizing: border-box;}
     padding-top: 5px;
     padding-right: 5px;
-}*/
-
+}
+*/
 .slideshow img {
     padding: 10px;
-}
-
-.mySlides {
-    display: none;
 }
 
   .dot {
@@ -214,6 +210,9 @@ footer a {
 
     
 }
+
+
+
 
 
 /* DIFFERENT SCREENS */

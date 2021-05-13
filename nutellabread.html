@@ -7,7 +7,7 @@
 
 		<head>
 			<link rel="stylesheet" href="nutellabread.css"/>
-            <script src="script.js"></script>
+          <!-- <script src="script.js"></script>-->
 			<title>Assignment 2 - Allan, Aurelia and Maira </title>
 		</head>
 		
@@ -41,15 +41,17 @@
                     <!--DOTS-->
                     
                     <div class="slideshow">
+                               
                         <!--SLIDESHOW 1-->
                         <div class="mySlides fade">      
                         <img src ="images/Nutella.jpg" alt = "Food" width="300px" style="opacity: 1;filter:contrast(1.4);">
                         </div>
+                              
                         <!--SLIDESHOW 2-->
-                        <div class="mySlides fade">      
+                        <div class="mySlides fade">     
                         <img src ="images/Ingredients.jpg" alt = "Food" width="300px" style="opacity: 1;filter:contrast(1.4);">
                         </div>
-                     
+                                                   
                         <!--SLIDESHOW 3-->
                         <div class="mySlides fade">    
                         <img src ="images/Step1.jpg" alt = "Food" width="300px" style="opacity: 1;filter:contrast(1.4);">
@@ -79,10 +81,46 @@
                             <span class="dot" onclick="currentSlide(6)"></span>
                             </div>
     
-                        
                         </div> <!--END OF SLIDESHOW IMAGES-->
 
+         <script>
+                    var slideIndex = 1;
+                    showSlides(slideIndex);
+
+
+                    function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                    
+                    }
+
+                    function showSlides(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                
+                    var dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) {
+                        slideIndex = 1
+                    }
+
+                    if (n < 1) {
+                        slideIndex = slides.length
+                        }
+
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";
+                    dots[slideIndex-1].className += " active";
+                    }
+
+         </script>
+
+
                 </div> <!--end of Firstfood-->
+                
 <div id="recipetext">
     <h3>- Ingredients -</h3>
     <ul>
