@@ -19,22 +19,10 @@ body {
     
 }
 
-/*                                                DO YOU THINK WE CAN DELETE THIS? YES MISSY I THINK SO!
-#masthead h1 {
-    color: rgb(24, 17, 17);
-    font-size: 4rem;
-    margin: 0;
-    padding: 0;
-    line-height: 3;
-    position: relative;
-    left: 90px;
-
-}
-*/
 .content {
     width: 1048px;
     margin: 0 auto;   
-    background-color: rgb(246, 250, 198);
+    background-color: rgb(232, 213, 235);
     display: flex;
     flex-direction: row;
 
@@ -54,10 +42,8 @@ body {
 
  .navigation{
 
-    background-color: #172121;
+    background-color: #797979;
     padding: 2rem;
-    border-width: 2px;
-    border-style: solid;
     width: 300px;
     display: relative;
     justify-content: flex-start;

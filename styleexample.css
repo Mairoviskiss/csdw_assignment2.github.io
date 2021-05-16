@@ -54,7 +54,7 @@ body {
 
    
 }
-
+/*SOMETHING NEEDS TO BE FIXED HERE CAUSE NAV IS HUGE :(*/
 
 .content nav ul {
     list-style-type: none;
@@ -93,6 +93,7 @@ article header {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #7F7B82;
+    text-align: center;
 }
 
 
@@ -139,7 +140,6 @@ main a {
     border-style: solid;
     border-width: 1px;
     border-color: #7F7B82;
-    border 
 }
 
 .article-footer {
