@@ -16,7 +16,6 @@ body {
     background-size: cover;    
     background-repeat: no-repeat;
     padding: 1.5rem; 
-    
 }
 
 .content {
@@ -157,6 +156,7 @@ main a {
 
 
 footer {
+    text-align: center;
     width: 1000px;
     margin: 0 auto;
     background-color: #172121;
