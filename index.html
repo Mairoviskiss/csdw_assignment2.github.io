@@ -43,8 +43,22 @@
                    <p>As you move around the website you will find the most amazing and tested recipes.<p>
                    <p>You will definitely find something you like, whether it's a cake or a delicious main dish!</p>
                    <p>Use the side navigation to guide you through the website &#8594;</p>
-                   <p>If you find something you really like, please let us know, we would love to hear from you! </p>
-                   <!--AND THIS IS WHERE THE 'LEAVE A COMMENT' SECTION SHOULD GO, BUT HOW TO DO THAT??? WHO THE FUCK KNOWS-->
+                   <p>If you find something you really like, please let us know in the form below, we would love to hear from you! </p>
+                   
+
+                   <div class="comments">
+                    <label for="example">Your Name:</label>
+                    <br><br>
+                    <input id="name" type="text" name="username" size="20">
+                    <br><br>
+                    <label for="example">Leave a comment:</label>
+                    <br><br>
+                    <input id="comment" type="text" name="usercomment" size="80">
+                    <br><br>
+                    <button type="button" onclick="comment()">Submit!</button>
+                </div>
+                  <p id="reply"></p>
+
                 </div>
             </div> <!--end of div recipe-->
              </div> <!--end of class article-->
@@ -96,6 +110,12 @@
 			</footer>						
 	
  </body>
-		
+ <script>
+
+function comment() {
+    document.getElementById("reply").innerHTML = "Thank you for your comment!";
+}
+
+  </script>
 
 </html>
