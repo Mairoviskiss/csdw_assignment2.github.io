@@ -25,37 +25,56 @@ body {
     display: flex;
     flex-direction: row;
 
+
 }
 
  main {
   width: 90%;
-   
 }
-
 
 .content nav ul a {
     color: white;
     text-decoration: none;
-  
 }
-
- .navigation{
-
-    background-color: #797979;
-    padding: 2rem;
-    /*border-width: 2px;
-    border-style: solid;*/
-    width: 300px;
-    display: relative;
-    justify-content: flex-start;
-    flex-direction: column;
-    float: left;
-
-   
-}
-/*SOMETHING NEEDS TO BE FIXED HERE CAUSE NAV IS HUGE :(*/
 
 .content nav ul {
+    list-style-type:decimal;
+}
+
+.navigation {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    
+  }
+
+  .navigation a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 15px 15px 15px 0px;
+  }
+  
+  .navigation a:hover {
+    color: black;
+  }
+
+  .box{
+    display: none;
+    width: 100%;
+}
+
+a:hover + .box,.box:hover{
+    display: block;
+    position:static;
+}
+
+/*.content nav ul {
     list-style-type: none;
     padding: 0rem;
     margin: 0 auto;
@@ -70,8 +89,7 @@ body {
 .content nav ul a:hover {
     color: rgba(0, 153, 255, 0.767);
 }
-
-
+*/
 .article {
 
     margin-bottom: 3rem;
