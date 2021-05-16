@@ -44,40 +44,46 @@ body {
    
 }
 
-
 .content nav ul a {
     color: white;
     text-decoration: none;
+}
+
+.navigation {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+  }
+
+  .navigation ul {
+      list-style-type: none;
+  }
+
+  .navigation a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 15px 15px 15px 0px;
+  }
   
+  .navigation a:hover {
+    color: black;
+  }
+
+ /*.box{
+    display: none;
+    width: 100%;
 }
 
- .navigation{
-
-    background-color: #797979;
-    padding: 2rem;
-    width: 150px;
-    display: relative;
-    justify-content: flex-start;
-    flex-direction: column;
-    float: left; 
-}
-
-
-.content nav ul {
-    list-style-type: none;
-    padding: 0rem;
-    margin: 0 auto;
-    display: flex; 
-    flex-direction: column;
-    line-height: 7rem;
-    text-align: center;
-   
- }
-
-
-.content nav ul a:hover {
-    color: rgba(0, 153, 255, 0.767);
-}
+a:hover + .box,.box:hover{
+    display: block;
+    position:static;
+}*/
 
 
 .article {

@@ -37,10 +37,6 @@ body {
     text-decoration: none;
 }
 
-.content nav ul {
-    list-style-type:decimal;
-}
-
 .navigation {
     height: 100%;
     width: 160px;
@@ -49,7 +45,10 @@ body {
     top: 0;
     left: 0;
     overflow-x: hidden;
-    
+  }
+
+  .navigation ul {
+      list-style-type: none;
   }
 
   .navigation a {
@@ -64,7 +63,7 @@ body {
     color: black;
   }
 
-  .box{
+ /*.box{
     display: none;
     width: 100%;
 }
@@ -72,24 +71,8 @@ body {
 a:hover + .box,.box:hover{
     display: block;
     position:static;
-}
+}*/
 
-/*.content nav ul {
-    list-style-type: none;
-    padding: 0rem;
-    margin: 0 auto;
-    display: flex; 
-    flex-direction: column;
-    line-height: 7rem;
-    text-align: center;
-   
- }
-
-
-.content nav ul a:hover {
-    color: rgba(0, 153, 255, 0.767);
-}
-*/
 .article {
 
     margin-bottom: 3rem;
