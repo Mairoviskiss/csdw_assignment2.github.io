@@ -118,6 +118,10 @@ main a {
     margin-top: 0;
 }
 
+.container #text {
+    padding: 20px;
+}
+
 
 .container #recipe {
     display: flex;
