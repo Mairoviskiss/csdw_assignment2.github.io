@@ -67,16 +67,17 @@ body {
   /*
  .box{
     display: none;
-    width: 90%;
-    border: 80%;
+    width: 100%;
+  
 }
 
 a:hover + .box,.box:hover{
     display: block;
     position:relative;
-    
-}
-*/
+    nav-right: 10rem;
+ 
+}*/
+
 .article {
 
     margin-bottom: 3rem;
