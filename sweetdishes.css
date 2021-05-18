@@ -3,7 +3,7 @@ body {
     background-image: url("images/background.jpg");     
     background-size:cover;    
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment:scroll;
     opacity: 0.9;
 }
 
@@ -240,7 +240,7 @@ footer a {
 
 @media screen and (max-width: 480px) {
 
-    .container {
+    body {
  
         width: 320px;
  
@@ -288,7 +288,7 @@ footer a {
  
  @media screen and (min-width: 1201px) and (max-width: 1600px) {
  
-    .body {
+    body {
  
         width: 1200px;
  
