@@ -44,6 +44,8 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
+   /* top: 15rem;   CLOSE TO THE CONTENT
+    left: 8rem;*/
     overflow-x: hidden;
 
   }
@@ -185,7 +187,7 @@ footer a {
 
 @media screen and (max-width: 480px) {
 
-    body {
+    .content {
  
         width: 320px;
  
@@ -197,7 +199,7 @@ footer a {
  
  @media screen and (min-width: 481px) and (max-width: 720px) {
  
-    body {
+    .content {
  
         width: 480px;
  
@@ -209,7 +211,7 @@ footer a {
  
  @media screen and (min-width: 721px) and (max-width: 960px) {
  
-    body {
+    .content {
  
         width: 720px;
  
@@ -221,7 +223,7 @@ footer a {
  
  @media screen and (min-width: 961px) and (max-width: 1200px) {
  
-    body {
+    .content {
  
         width: 960px;
  
@@ -233,7 +235,7 @@ footer a {
  
  @media screen and (min-width: 1201px) and (max-width: 1600px) {
  
-    .body {
+    .content {
  
         width: 1200px;
  
@@ -245,7 +247,7 @@ footer a {
  
  @media screen and (min-width: 1601px) {
  
-    body {
+    .content {
  
         width: 1600px;
  
