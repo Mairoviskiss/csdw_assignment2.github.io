@@ -41,13 +41,9 @@ body {
     width: 160px;
     position: fixed;
     z-index: 1;
-    top: 0;
-    left: 0;
-   /* top: 15rem;   CLOSE TO THE CONTENT
-    left: 8rem;*/
+    top: 15rem;   
+    left: 0rem;
     overflow-x: hidden;
-  
-
   }
 
   .navigation ul {
