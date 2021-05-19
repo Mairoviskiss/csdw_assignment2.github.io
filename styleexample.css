@@ -130,11 +130,18 @@ main a {
     display: flex;
     position: relative;
     left: 0.625rem;
+   
     text-align: justify;
 }
 
 .container #recipetext {
     padding: 15px;
+}
+
+#eating {
+    display: flex;
+    position: relative;
+    left: 35rem;    
 }
 
 .comments {
