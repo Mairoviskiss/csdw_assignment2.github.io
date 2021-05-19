@@ -25,6 +25,8 @@ body {
     background-color: rgb(232, 213, 235);
     display: flex;
     flex-direction: row;
+    position: relative;
+    left: 10rem;
    
 }
 
@@ -200,6 +202,8 @@ footer {
     background-color: #172121;
     padding: 1.5rem;
     color: white;
+    position: relative;
+    left: 10rem;
 }
 
 footer a {
@@ -231,6 +235,7 @@ footer a {
     body {
  
         width: 480px;
+    
  
     }
  
@@ -241,9 +246,9 @@ footer a {
  @media screen and (min-width: 721px) and (max-width: 960px) {
  
     body {
- 
+  
         width: 720px;
- 
+    
     }
  
  }
@@ -255,7 +260,8 @@ footer a {
     body {
  
         width: 960px;
- 
+        border: 0;
+        margin: 0;
     }
  
  }
