@@ -44,8 +44,8 @@ body {
     width: 160px;
     position: fixed;
     z-index: 1;
-    top: 0;
-    left: 0;
+    top: 17rem;   
+    left: 0rem;
     overflow-x: hidden;
   }
 
@@ -68,7 +68,7 @@ body {
   .bars {
     display: flex;
     position: relative;
-    left: 160px;
+    left: 280px;
     top: 3rem;
     display: inline-block;
     cursor: pointer;
@@ -94,17 +94,6 @@ body {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
   }
-
-
- /*.box{
-    display: none;
-    width: 100%;
-}
-
-a:hover + .box,.box:hover{
-    display: block;
-    position:static;
-}*/
 
 
 .article {
@@ -134,10 +123,8 @@ article header {
     font-size: 15px;
 }
 
-main .article-body p {
-    font-family: Georgia;
-    line-height: 1.5rem;
-    text-align: justify;
+#recipetext p {
+    text-align:justify;
 }
 
 main a {
@@ -159,6 +146,43 @@ main a {
     margin-top: 0;
 
 }
+
+.slideshow img {
+    padding: 10px;
+}
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
 
 .container #recipe {
     display: flex;

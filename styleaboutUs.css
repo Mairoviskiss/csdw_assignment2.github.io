@@ -42,8 +42,8 @@ body {
     width: 160px;
     position: fixed;
     z-index: 1;
-    top: 0;
-    left: 0;
+    top: 17rem;   
+    left: 0rem;
     overflow-x: hidden;
   }
 
@@ -93,15 +93,6 @@ body {
     transform: rotate(45deg) translate(-8px, -8px);
   }
 
- /*.box{
-    display: none;
-    width: 100%;
-}
-
-a:hover + .box,.box:hover{
-    display: block;
-    position:static;
-}*/
 
 .article {
     display: grid;

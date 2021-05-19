@@ -18,17 +18,6 @@ body {
     padding: 1.5rem;    
 }
 
-/*                                           DO YOU THINK WE CAN DELETE THIS?
-#masthead h1 {
-    color: rgb(24, 17, 17);
-    font-size: 4rem;
-    margin: 0;
-    padding: 0;
-   line-height: 3;
-   position: relative;
-   left: 90px;
-
-}*/
 
 .content {
     width: 1048px;
@@ -54,8 +43,8 @@ body {
     width: 160px;
     position: fixed;
     z-index: 1;
-    top: 0;
-    left: 0;
+    top: 17rem;   
+    left: 0rem;
     overflow-x: hidden;
   }
 

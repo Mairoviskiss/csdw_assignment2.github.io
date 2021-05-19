@@ -72,47 +72,134 @@
 		   <article>	
 							
 			   <header>
-			      <h2> This is  NOT hot!! &#x1F6AB; &#127798 &#x1F6AB; &#127798</h2>
-				  <p class="author"><em><strong>By Aurelia Luszcz</strong></em></p>
+			      <h2> Pork in the orange &#x1F6AB; &#127798</h2>
+				  <p class="author"><em><strong>By Maíra Araújo</strong></em></p>
 			    
 		       </header>
 
-			 <div class="article">
+               <div class="article">
 
 
-            <div id="recipe">
-                <div id="Firstfood">
-				
-                    <figure> 
-                        <img src ="images/cheesecake.jpeg" alt = "Food" width="300px" style="opacity: 1;filter:contrast(1.4);"> 
+                <div id="recipe">
+                    <div id="Firstfood">
+                        <!--DOTS-->
+      
                         
-                     </figure>
-                </div> <!--end of Firstfood-->
-                <div id="recipetext">
-                    <h3>- Ingredients -</h3>
-                    <ul>
-                        <li>150g digestive biscuits</li>
-                        <li>45g butter</li>
-                        <li>110g caster sugar, divided</li>
-                        <li>120ml whipping cream</li>
-                        <li>150g dark chocolate, melted and cooled</li>
-                        <li>2 tbsp cocoa powder mixed w/ a little hot water</li>
-                        <li>200g cream cheese</li>
-                        <li>Fruit and jelly of your choice!</li>
-                    </ul>
-                    <h3>- Method -</h3>
-			         <ol>
-                         <li>Crush the digestive biscuits and mix with the melted butter and 1 tablespoon of the caster sugar. Press into a 18cm (7 in) cake tin and refrigerate.</li>
-                         <li>Whip cream until soft peak stage. Add cooled melted chocolate, then the cocoa powder mix. Blend well and set aside.</li>
-                         <li>Beat the cream cheese and remaining sugar together. Fold in cream/chocolate mixture and mix thoroughly.</li>
-                         <li>Spread into tin on top of crushed biscuits. Freeze for one hour.</li>
-                         <li>Refrigerate for about 30 minutes.</li>
-                         <li>Decorate with fruit and jelly, refrigerate until jelly is set, then serve and enjoy!</li>
-                     </ol>
-                </div>
-            </div> <!--end of div recipe-->
-             </div> <!--end of class article-->
+                        <div class="slideshow">
+                                   
+                            <!--SLIDESHOW 1-->
+                            <div class="mySlides fade">      
+                            <img src ="images/Porkprep (1).jpg" alt = "Food" width="300px" style="opacity: 1;filter:contrast(1.4);">
+                            </div>
+                                  
+                            <!--SLIDESHOW 2-->
+                            <div class="mySlides fade">     
+                            <img src ="images/Porkprep (2).jpg" alt = "Food" width="300px" style="opacity: 1;filter:contrast(1.4);">
+                            </div>
+                                                       
+                            <!--SLIDESHOW 3-->
+                            <div class="mySlides fade">    
+                            <img src ="images/Porkprep (3).jpg" alt = "Food" width="300px" style="opacity: 1;filter:contrast(1.4);">
+                            </div>
+    
+                            <!--SLIDESHOW 4-->
+                            <div class="mySlides fade">     
+                            <img src ="images/Porkprep (4).jpg" alt = "Food" width="300px" style="opacity: 1;filter:contrast(1.4);">
+                            </div>
+    
+                            <!--SLIDESHOW 5-->
+                            <div class="mySlides fade">     
+                          
+                            <video controls="controls" width="300px" name="Prok video" src="images/porkvideo2.mov"></video>
+                            
+                            </div>
+    
+                            <!--SLIDESHOW 6-->
+                            <div class="mySlides fade"> 
+                                
+                                <video controls="controls" width="300px" name="Prok video" src="images/porkvideo1.mov" style="opacity: 1;filter:contrast(1.4);"></video>    
+                            
+                            </div>
+    
+                            <div style="text-align: center">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                                <span class="dot" onclick="currentSlide(4)"></span>
+                                <span class="dot" onclick="currentSlide(5)"></span>
+                                <span class="dot" onclick="currentSlide(6)"></span>
+                                </div>
+        
+                            </div> <!--END OF SLIDESHOW IMAGES-->
+    
+             <script>
+                        var slideIndex = 1;
+                        showSlides(slideIndex);
+    
+    
+                        function currentSlide(n) {
+                        showSlides(slideIndex = n);
+                        
+                        }
+    
+                        function showSlides(n) {
+                        var i;
+                        var slides = document.getElementsByClassName("mySlides");
+                    
+                        var dots = document.getElementsByClassName("dot");
+                        if (n > slides.length) {
+                            slideIndex = 1
+                        }
+    
+                        if (n < 1) {
+                            slideIndex = slides.length
+                            }
+    
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                        }
+                        slides[slideIndex-1].style.display = "block";
+                        dots[slideIndex-1].className += " active";
+                        }
+    
+             </script>
+    
+    
+                    </div> <!--end of Firstfood-->
+                    
+    <div id="recipetext">
+        <h3>- Ingredients -</h3>
+        <ul>
+            <li>Pork belly (with a good belly layer &#128523;)</li>
+            <li>1 orange</li>
+            <li>Salt flakes</li>
+            <p>Note: this piece of pork belly was about 700g.</p>
+        </ul>
+        <h3>- Method -</h3>
+         <ol>
+             <li>Chop the orange in thin pieces; </li>
+             <li>Use a piece of kitchen foil in the baking tray to wrap the pork;</li>
+             <li>Place the orange pieces as a bed for the pork, at the bottom and at the sides of the foil;</li>
+             <li>Put the salt flakes all around the pork meat;</li>
+             <li>Put the pork on the "orange bed" with the belly facing up;</li>
+             <li>If you want to, put a small bit of salt flakes on the belly, <strong>but be careful</strong>, as it is already salty;</li>
+             <li>Wrap the pork meat leaving the belly without covering (do not forget to have enough foil to cover the belly after);</li>
+             <li>Put it in the fridge for not less than 5 hours (if you can leave for 24hs would be ideal)</li>
+             <li>After the period in the fridge, take the pork out and dry the belly as much as you can with a paper towel; </li>
+             <li>Cover the entire meat (including the belly) with the kitchen foil and place the baking tray in the oven, within 200 degrees for approximately 40min;</li>
+             <li>When you see it is cooked enough, open the foil to expose the belly, closing it as tight as possible to protect the meat;</li>
+             <li>Increase the oven's temperature to maximum (around 250 degrees) and wait for around 10-15 minutes, or until the belly looks crunchy; </li>
+         </ol>
 
+            <p>&ensp;Note: If you are wondering why putting the meat in the fridge, it is to dry the belly so it can be more crunchy. Same reason for the drying paper towel. </p>
+         
+    </div>
+    </div> <!--end of div recipe-->
+    </div> <!--end of class article-->
+    
 		</article>
 		
 	    </div>  <!--end of container div-->
