@@ -25,6 +25,8 @@ body {
     background-color: rgb(232, 213, 235);
     display: flex;
     flex-direction: row;
+    position: relative;
+    
 
 }
 
@@ -68,8 +70,8 @@ body {
   .bars {
     display: flex;
     position: relative;
-    left: 280px;
-    top: 3rem;
+    right: 28rem;
+    top: -6.5rem;
     display: inline-block;
     cursor: pointer;
     
@@ -121,6 +123,7 @@ article header {
 
 .author {
     font-size: 15px;
+    padding-bottom: 0;
 }
 
 #recipetext p {

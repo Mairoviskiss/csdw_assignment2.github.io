@@ -28,13 +28,10 @@ body {
    
 }
 
-
-
  main {
   width: 90%;
 
 }
-
 
 .content nav ul a {
     color: white;
@@ -70,11 +67,10 @@ body {
   .bars {
     display: flex;  
     position: relative;
-    left: 17.5rem;
-    top: 3rem;
+    right: 28rem;
+    top: -4rem;
     display: inline-block;
-    cursor: pointer;
-    
+    cursor: pointer;  
   }
   
   .bar1, .bar2, .bar3 {
@@ -120,6 +116,8 @@ article header {
 
 .author {
     font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 main a {

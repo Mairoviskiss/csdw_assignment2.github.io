@@ -68,8 +68,8 @@ body {
   .bars {
     display: flex;
     position: relative;
-    left: 17.5rem;
-    top: 3rem;
+    right: 28rem;
+    top: -7.6rem;
     display: inline-block;
     cursor: pointer;
     

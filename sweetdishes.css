@@ -10,12 +10,13 @@ body {
 #masthead {
     width: 1000px;
     margin: 0 auto;
-    height: 200px;
+    height: 250px;
     margin: 0 auto;
     background-position: center;
     background-size: cover;    
     background-repeat: no-repeat;
     padding: 1.5rem;    
+    
 }
 
 
@@ -25,6 +26,8 @@ body {
     background-color: rgb(232, 213, 235);
     display: flex;
     flex-direction: row;
+    position: relative;
+    left: 15rem;
 
 }
 
@@ -67,8 +70,8 @@ body {
   .bars {
     display: flex;
     position: relative;
-    left: 18%;
-    top: 3rem;
+    right: 28rem;
+    top: -4rem;
     display: inline-block;
     cursor: pointer;
     
@@ -93,17 +96,6 @@ body {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
   }
-
-
- /*.box{
-    display: none;
-    width: 100%;
-}
-
-a:hover + .box,.box:hover{
-    display: block;
-    position:static;
-}*/
 
 
 .article {
@@ -215,6 +207,8 @@ footer {
     background-color: #172121;
     padding: 1.5rem;
     color: white;
+    position: relative;
+    left: 15rem;
 }
 
 footer a {
