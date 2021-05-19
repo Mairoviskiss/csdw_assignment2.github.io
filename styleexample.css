@@ -18,7 +18,7 @@ body {
     padding: 1.5rem; 
 }
 
-.content { /* CHEEEEECK HEEEREEEE */
+.content { 
     width: 1048px;
     margin: 0 auto;   
     background-color: rgb(232, 213, 235);
@@ -87,7 +87,7 @@ article header {
 }
 
 
-main .article-body p {
+main .article p {
     font-family: Georgia;
     line-height: 1.5rem;
     text-align: justify;
@@ -113,22 +113,28 @@ main a {
 
 }
 
-.container #recipe {
+.container #recipe h2{
     display: flex;
     position: relative;
     left: 0.625rem;
-   
     text-align: justify;
-}
-
-.container #recipetext {
-    padding: 15px;
 }
 
 #eating {
     display: flex;
     position: relative;
-    left: 35rem;    
+    left: 35rem;   
+}
+
+
+
+#recipetext #text {
+    text-align: justify;
+    padding-left: 10px;
+    position: relative;
+    bottom: 10rem;
+    line-height: 3rem;
+    padding-bottom: 0;
 }
 
 .comments {
@@ -138,6 +144,8 @@ main a {
     border-width: 1px;
     border-color: #7F7B82;
     text-align: left;
+    position: relative;
+   
 }
 
 .article-footer {
