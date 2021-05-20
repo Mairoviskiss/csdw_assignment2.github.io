@@ -185,7 +185,7 @@ footer a {
 
 @media screen and (max-width: 480px) {
     
-    .container {
+    body {
         
         width: 320px;
  
