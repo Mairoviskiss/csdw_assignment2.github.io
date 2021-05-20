@@ -204,6 +204,25 @@ footer {
     position: relative;
 }
 
+#footer {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    
+ }
+ 
+ .aureliafooter {
+     justify-self: start;
+     grid-column-start: 1;
+     grid-column-end: 2;
+ }
+ 
+ .mairafooter {
+     justify-self: end;
+     grid-column-start: 2;
+     grid-column-end: 3;
+     
+ }
+
 footer a {
     color: white; 
     background-color:#172121;
