@@ -67,8 +67,8 @@ body {
   .bars {
     display: flex;
     position: relative;
-    left: 17.5rem;
-    top: 3rem;
+    right: 28rem;
+    top: -6rem;
     display: inline-block;
     cursor: pointer;
     
@@ -93,16 +93,6 @@ body {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
   }
-
- /*.box{
-    display: none;
-    width: 100%;
-}
-
-a:hover + .box,.box:hover{
-    display: block;
-    position:static;
-}*/
 
 .article {
     margin-bottom: 3rem;
