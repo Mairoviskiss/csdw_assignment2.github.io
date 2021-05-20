@@ -233,7 +233,7 @@ footer a {
 
     .container {
  
-        width: 320px;
+        width: 320px !important;
  
     }
  
@@ -245,7 +245,7 @@ footer a {
  
     body {
  
-        width: 480px;
+        width: 480px !important;
  
     }
  
@@ -257,7 +257,7 @@ footer a {
  
     body {
  
-        width: 720px;
+        width: 720px !important;
  
     }
  
@@ -269,7 +269,7 @@ footer a {
  
     body {
  
-        width: 960px;
+        width: 960px !important;
  
     }
  
@@ -281,7 +281,7 @@ footer a {
  
     .body {
  
-        width: 1200px;
+        width: 1200px !important;
  
     }
  
@@ -293,7 +293,7 @@ footer a {
  
     body {
  
-        width: 1600px;
+        width: 1600px !important;
  
     }
  
