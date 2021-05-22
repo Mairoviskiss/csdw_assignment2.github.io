@@ -209,11 +209,6 @@ footer {
     grid-template-columns:1fr 1fr;
     
  }
-
- .allanfooter{
-    grid-column-start: 0;
-    grid-column-end: 1;
- }
  
  .allanfooter{
     grid-column-start: 0;

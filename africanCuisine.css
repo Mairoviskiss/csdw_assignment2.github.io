@@ -4,7 +4,7 @@ body {
     background-size:cover;    
     background-repeat: no-repeat;
     background-attachment: scroll;
-    opacity: 0.9;
+    opacity: 0.9;   
 }
 
 #masthead {
@@ -26,13 +26,15 @@ body {
     display: flex;
     flex-direction: row;
     position: relative;
+    
 
 }
 
  main {
-  width: 90%; 
-
+  width: 90%;
+   
 }
+
 
 .content nav ul a {
     color: white;
@@ -66,12 +68,13 @@ body {
   }
 
   .bars {
-    display: flex;  
+    display: flex;
     position: relative;
     right: 28rem;
-    top: -4rem;
+    top: -6.5rem;
     display: inline-block;
-    cursor: pointer;  
+    cursor: pointer;
+    
   }
   
   .bar1, .bar2, .bar3 {
@@ -94,7 +97,9 @@ body {
     transform: rotate(45deg) translate(-8px, -8px);
   }
 
+
 .article {
+
     margin-bottom: 3rem;
     border-bottom-style: solid;
     border-bottom-width: 1px;
@@ -103,7 +108,8 @@ body {
 
 article h2 {
     font-size: 2rem;
-    margin: 0; 
+    margin: 0;
+   
 }
 
 
@@ -117,12 +123,15 @@ article header {
 
 .author {
     font-size: 15px;
-    margin-bottom: 0;
-    margin-top: 0;
+    padding-bottom: 0;
+}
+
+#recipetext p {
+    text-align:justify;
 }
 
 main a {
-    color: #8614dda1;
+    color: #7F7B82;
     text-decoration: none;
 }
 
@@ -138,7 +147,44 @@ main a {
     position: relative;
     float: left;
     margin-top: 0;
+
 }
+
+.slideshow img {
+    padding: 10px;
+}
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
 
 
 .container #recipe {
@@ -146,39 +192,8 @@ main a {
     position: relative;
     left: 10px;
     text-align: justify;
-    line-height: 1rem;
 }
 
-
-#emailimage {
-    display: flex;
-    position: relative;
-    right: 40px;
-    margin-top: 1rem;
-}
-
-#mail {
-    display: flex;
-    position: relative;
-    left: 70px;
-    bottom: 3rem;
-}
-
-
-#whatsappimage {
-    display: flex;
-    position: relative;
-    right: 40px;
-    margin-top: 0;
-    bottom: 2rem;
-
-}
-.mywhatsapp{
-    display: flex;
-    position: relative;
-    left: 80px;
-    bottom: 6rem;  
-}
 
 .article-footer {
     text-align: right;
@@ -201,35 +216,30 @@ footer {
     background-color: #172121;
     padding: 1.5rem;
     color: white;
-    position: relative;
 }
 
 #footer {
-    display: grid;
-    grid-template-columns:1fr 1fr;
-    
- }
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  
+}
 
- .allanfooter{
-    grid-column-start: 0;
-    grid-column-end: 1;
- }
- 
- .allanfooter{
-    grid-column-start: 0;
-    grid-column-end: 1;
- }
- 
- .aureliafooter {
-     grid-column-start: 1;
-     grid-column-end: 2;
- }
- 
- .mairafooter {
-     grid-column-start: 2;
-     grid-column-end: 3;
-     
- }
+.allanfooter{
+  grid-column-start: 0;
+  grid-column-end: 1;
+}
+
+.aureliafooter {
+   grid-column-start: 1;
+   grid-column-end: 2;
+}
+
+.mairafooter {
+   grid-column-start: 2;
+   grid-column-end: 3;
+   
+}
+
 
 footer a {
     color: white; 
@@ -238,6 +248,12 @@ footer a {
     
 }
 
+button{
+    margin-right: 55px;
+    font-size: 20px;
+    border-radius: 12px;
+    background-color: #B65FCF;
+}
 
 /* DIFFERENT SCREENS */
 
@@ -260,7 +276,6 @@ footer a {
     body {
  
         width: 480px;
-    
  
     }
  
@@ -271,9 +286,9 @@ footer a {
  @media screen and (min-width: 721px) and (max-width: 960px) {
  
     body {
-  
+ 
         width: 720px;
-    
+ 
     }
  
  }
@@ -285,7 +300,7 @@ footer a {
     body {
  
         width: 960px;
-
+ 
     }
  
  }
