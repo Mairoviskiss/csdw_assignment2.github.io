@@ -27,7 +27,7 @@ body {
     display: flex;
     flex-direction: row;
     position: relative;
-    left: 15rem;
+    left: 7rem;
 
 }
 
@@ -208,7 +208,7 @@ footer {
     padding: 1.5rem;
     color: white;
     position: relative;
-    left: 15rem;
+    left: 7rem;
 }
 
 #footer {
