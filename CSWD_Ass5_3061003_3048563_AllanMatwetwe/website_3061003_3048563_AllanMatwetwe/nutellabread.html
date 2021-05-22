@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<div id="page">
+<meta charset="utf-8">	
+
+
+		<head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="apple-mobile-web-app-capable" content="yes">
+			<link rel="stylesheet" href="nutellabread.css"/>
+            <script src="script.js"></script>
+			<title>Assignment 2 - Allan, Aurelia and Maira </title>
+		</head>
+		
+ <body>
+		<header id="masthead">
+						
+				
+				
+		</header> <!--end of masthead-->
+
+        <div class="navigation">
+
+            <nav>
+				
+                <ul>
+                    
+                    <div>
+                    <li><a href="index.html"><img src="images/home.png" width="20px">&nbsp;Home</a><!--<div class="box">
+                        <iframe src="index.html" width = "500px" height = "500px">
+                        </iframe>
+                      </div> --> </li> 
+                    </div> 
+                    <div>
+                    <li><a href="aboutUs.html"><img src="images/people.png" width="20px">&nbsp;About us</a></li> 
+                    </div>
+                    <div>
+                    <li><a href="chillifood.html"><img src="images/chilli.png" width="20px">&nbsp;Spicy</a></li> 
+                    </div>
+                    <div>
+                    <li><a href="nonchilli.html"><img src="images/mild.png" width="20px">&nbsp;Mild</a></li>
+                    </div> 
+                    <div> 
+                    <li><a href="sweetdishes.html"><img src="images/sweet.png" width="20px">&nbsp;Sweet</a></li> 
+                    <li><a href="africanCuisine.html"> <img src="images/african.jpg" width="20px">&nbsp;African<br/>Cuisine</a></li> 
+                    </div>
+                
+            
+                </ul>
+                
+                 </nav> 
+	
+           </div> <!--end of navigation-->
+
+           <div class="bars" onmouseover="barFunction(this)" onclick="location.href='sweetdishes.html';" title="Click here to go back to Sweet Dishes page">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div> <!--end of bars div-->
+
+          <script>
+            function barFunction(x) {
+              x.classList.toggle("change");
+            }
+           
+            </script>
+		
+<div class ="content">
+
+	<div id="maindiv">
+     <main>
+	
+       <div class="container">
+
+		   <article>	
+							
+			   <header>
+			      <h2> Nutella Bread</h2>
+				  <p class="author"><em><strong>By Aurelia Luszcz</strong></em></p>
+			    
+		       </header>
+
+			 <div class="article">
+
+
+            <div id="recipe">
+                <div id="Firstfood">
+                    <!--DOTS-->
+  
+                    
+                    <div class="slideshow">
+                               
+                        <!--SLIDESHOW 1-->
+                        <div class="mySlides fade">      
+                        <img src ="images/Nutella.jpg" alt = "Food" width="300px" style="opacity: 1;filter:contrast(1.4);">
+                        </div>
+                              
+                        <!--SLIDESHOW 2-->
+                        <div class="mySlides fade">     
+                        <img src ="images/Ingredients.jpg" alt = "Food" width="300px" style="opacity: 1;filter:contrast(1.4);">
+                        </div>
+                                                   
+                        <!--SLIDESHOW 3-->
+                        <div class="mySlides fade">    
+                        <img src ="images/Step1.jpg" alt = "Food" width="300px" style="opacity: 1;filter:contrast(1.4);">
+                        </div>
+
+                        <!--SLIDESHOW 4-->
+                        <div class="mySlides fade">     
+                        <img src ="images/Step2.jpg" alt = "Food" width="300px" style="opacity: 1;filter:contrast(1.4);">
+                        </div>
+
+                        <!--SLIDESHOW 5-->
+                        <div class="mySlides fade">     
+                        <img src ="images/Step3.jpg" alt = "Food" width="300px" style="opacity: 1;filter:contrast(1.4);">
+                        </div>
+
+                        <!--SLIDESHOW 6-->
+                        <div class="mySlides fade">     
+                        <img src ="images/Step4.jpg" alt = "Food" width="300px" style="opacity: 1;filter:contrast(1.4);">
+                        </div>
+
+                        <div style="text-align: center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                            <span class="dot" onclick="currentSlide(4)"></span>
+                            <span class="dot" onclick="currentSlide(5)"></span>
+                            <span class="dot" onclick="currentSlide(6)"></span>
+                            </div>
+    
+                        </div> <!--END OF SLIDESHOW IMAGES-->
+
+         <script>
+                    var slideIndex = 1;
+                    showSlides(slideIndex);
+
+
+                    function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                    
+                    }
+
+                    function showSlides(n) {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                
+                    var dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) {
+                        slideIndex = 1
+                    }
+
+                    if (n < 1) {
+                        slideIndex = slides.length
+                        }
+
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";
+                    dots[slideIndex-1].className += " active";
+                    }
+
+         </script>
+
+
+                </div> <!--end of Firstfood-->
+                
+<div id="recipetext">
+    <h3>- Ingredients -</h3>
+    <ul>
+        <li>Starter: 100ml water and 25g flour</li>
+        <li>125ml warm milk</li>
+        <li>25g fresh yeast or 7g packet</li>
+        <li>30g sugar</li>
+        <li>60g melted butter</li>
+        <li>2 eggs</li>
+        <li>1/4 tsp salt</li>
+        <li>450g flour</li>
+        <li>Also: 1 egg yolk mixed with 2 tbsp of milk, Nutella.</li>
+    </ul>
+    <h3>- Method -</h3>
+     <ol>
+         <li>Make the starter: heat flour and water over low heat until it looks like a mirror glaze. Leave to cool.</li>
+         <li>Mix warm milk, yeast and sugar.</li>
+         <li>Add starter, sieved flour, salt and eggs to the above mix until the ingredients almost come together.</li>
+         <li>Add melted cooled butter and knead for around 10 minutes.</li>
+         <li>Leave covered with a cloth in a warm area for an hour. The dough should at least double in size.</li>
+         <li>Heat the oven to 190 degrees.</li>
+         <li>Divide the dough into 4 part, roll out each part, fold it over, roll out again, put a spoonful of Nutella and roll it up. The rolls should be of the width of the baking tray.</li>
+         <li>Put all the rolls into the tray as shown in photos and leave to rise for 30 minutes.</li>
+         <li>After 30 minutes put some egg yolk with milk on top of the rolls and bake for 20-25 minutes in the oven or until golden.</li>
+     </ol>
+</div>
+</div> <!--end of div recipe-->
+</div> <!--end of class article-->
+
+</article>
+
+</div>  <!--end of container div-->
+
+</main>
+</div> <!--end of div maindiv-->    
+   
+
+</div> <!--end of content div-->
+
+    <footer>
+        
+        <div id="footer">
+            <div class="allanfooter">
+                <h3>Allan Matwetwe</h3>
+                <p id="id">Student ID </p>
+            
+                <a href="#"><img src="images/facebook.png" alt="facebook" width="20px"></a>
+                <a href="#"><img src="images/instagram.png" alt="instagram" width="20px"></a>
+            </div> <!--end of div allanfooter-->
+            
+            <div class="aureliafooter">
+            <h3>Aurelia Luszcz</h3>
+            <p id="id">Student ID 3048563</p>
+        
+            <a href="https://www.facebook.com/aurelialuszcz/"><img src="images/facebook.png" alt="facebook" width="20px"></a>
+            <a href="https://www.instagram.com/ohreallyeah_photography/"><img src="images/instagram.png" alt="instagram" width="20px"></a>
+            </div> <!--end of div aureliafooter-->
+
+            <div class="mairafooter">
+                <h3>Maíra Sá Araújo</h3>
+                <p id="id">Student ID 3061003</p>
+            
+                <a href="https://www.facebook.com/mairoviskis"><img src="images/facebook.png" alt="facebook" width="20px"></a>
+                <a href="https://www.instagram.com/mairoviskis/"><img src="images/instagram.png" alt="instagram" width="20px"></a>
+                </div> <!--end of div mairafooter-->
+        
+            </div> <!--end of divfooter-->
+    </footer>						
+	
+</body>
+
+
+
+</html>

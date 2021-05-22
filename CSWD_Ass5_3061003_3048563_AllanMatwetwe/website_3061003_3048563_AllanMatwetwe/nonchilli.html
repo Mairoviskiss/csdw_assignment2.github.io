@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<div id="page">
+<meta charset="utf-8">	
+
+
+		<head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="apple-mobile-web-app-capable" content="yes">
+			<link rel="stylesheet" href="stylenonchilli.css"/>
+            <script src="script.js"></script>
+			<title>Assignment 2 - Allan, Aurelia and Maira </title>
+		</head>
+		
+ <body>
+		<header id="masthead">
+						
+		
+		</header> <!--end of masthead-->
+
+        <div class="navigation">
+
+            <nav>
+				
+                <ul>
+                    
+                    <div>
+                    <li><a href="index.html"><img src="images/home.png" width="20px">&nbsp;Home</a><!--<div class="box">
+                        <iframe src="index.html" width = "500px" height = "500px">
+                        </iframe>
+                      </div> --> </li> 
+                    </div> 
+                    <div>
+                    <li><a href="aboutUs.html"><img src="images/people.png" width="20px">&nbsp;About us</a></li> 
+                    </div>
+                    <div>
+                    <li><a href="chillifood.html"><img src="images/chilli.png" width="20px">&nbsp;Spicy</a></li> 
+                    </div>
+                    <div>
+                    <li><a href="nonchilli.html"><img src="images/mild.png" width="20px">&nbsp;Mild</a></li>
+                    </div> 
+                    <div> 
+                    <li><a href="sweetdishes.html"><img src="images/sweet.png" width="20px">&nbsp;Sweet</a></li> 
+                    <li><a href="africanCuisine.html"> <img src="images/african.jpg" width="20px">&nbsp;African<br/>Cuisine</a></li> 
+                    </div>
+                
+            
+                </ul>
+                
+                 </nav> 
+	
+           </div> <!--end of navigation-->
+
+		
+<div class ="content">
+
+	<div id="maindiv">
+     <main>
+	
+       <div class="container">
+
+		   <article>	
+							
+			   <header>
+			      <h2> Pork in the orange &#x1F6AB; &#127798</h2>
+				  <p class="author"><em><strong>By Maíra Araújo</strong></em></p>
+			    
+                  <div class="bars" onmouseover="barFunction(this)" onclick="location.href='index.html';" title="Click here to go back to HOME page">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                  </div> <!--end of bars div-->
+        
+                  <script>
+                    function barFunction(x) {
+                      x.classList.toggle("change");
+                    }
+                   
+                    </script>
+                    
+		       </header>
+
+               <div class="article">
+
+
+                <div id="recipe">
+                    <div id="Firstfood">
+                        <!--DOTS-->
+      
+                        
+                        <div class="slideshow">
+                                   
+                            <!--SLIDESHOW 1-->
+                            <div class="mySlides fade">      
+                            <img src ="images/Porkprep (1).jpg" alt = "Food" width="300px" style="opacity: 1;filter:contrast(1.4);">
+                            </div>
+                                  
+                            <!--SLIDESHOW 2-->
+                            <div class="mySlides fade">     
+                            <img src ="images/Porkprep (2).jpg" alt = "Food" width="300px" style="opacity: 1;filter:contrast(1.4);">
+                            </div>
+                                                       
+                            <!--SLIDESHOW 3-->
+                            <div class="mySlides fade">    
+                            <img src ="images/Porkprep (3).jpg" alt = "Food" width="300px" style="opacity: 1;filter:contrast(1.4);">
+                            </div>
+    
+                            <!--SLIDESHOW 4-->
+                            <div class="mySlides fade">     
+                            <img src ="images/Porkprep (4).jpg" alt = "Food" width="300px" style="opacity: 1;filter:contrast(1.4);">
+                            </div>
+    
+                            <!--SLIDESHOW 5-->
+                            <div class="mySlides fade">     
+                          
+                            <video controls="controls" width="300px" name="Prok video" src="images/porkvideo2.mov"></video>
+                            
+                            </div>
+    
+                            <!--SLIDESHOW 6-->
+                            <div class="mySlides fade"> 
+                                
+                                <video controls="controls" width="300px" name="Prok video" src="images/porkvideo1.mov" style="opacity: 1;filter:contrast(1.4);"></video>    
+                            
+                            </div>
+    
+                            <div style="text-align: center">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                                <span class="dot" onclick="currentSlide(4)"></span>
+                                <span class="dot" onclick="currentSlide(5)"></span>
+                                <span class="dot" onclick="currentSlide(6)"></span>
+                                </div>
+        
+                            </div> <!--END OF SLIDESHOW IMAGES-->
+    
+             <script>
+                        var slideIndex = 1;
+                        showSlides(slideIndex);
+    
+    
+                        function currentSlide(n) {
+                        showSlides(slideIndex = n);
+                        
+                        }
+    
+                        function showSlides(n) {
+                        var i;
+                        var slides = document.getElementsByClassName("mySlides");
+                    
+                        var dots = document.getElementsByClassName("dot");
+                        if (n > slides.length) {
+                            slideIndex = 1
+                        }
+    
+                        if (n < 1) {
+                            slideIndex = slides.length
+                            }
+    
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                        }
+                        slides[slideIndex-1].style.display = "block";
+                        dots[slideIndex-1].className += " active";
+                        }
+    
+             </script>
+    
+    
+                    </div> <!--end of Firstfood-->
+                    
+    <div id="recipetext">
+        <h3>- Ingredients -</h3>
+        <ul>
+            <li>Pork belly (with a good belly layer &#128523;)</li>
+            <li>1 orange</li>
+            <li>Salt flakes</li>
+            <p>Note: this piece of pork belly was about 700g.</p>
+        </ul>
+        <h3>- Method -</h3>
+         <ol>
+             <li>Chop the orange in thin pieces; </li>
+             <li>Use a piece of kitchen foil in the baking tray to wrap the pork;</li>
+             <li>Place the orange pieces as a bed for the pork, at the bottom and at the sides of the foil;</li>
+             <li>Put the salt flakes all around the pork meat;</li>
+             <li>Put the pork on the "orange bed" with the belly facing up;</li>
+             <li>If you want to, put a small bit of salt flakes on the belly, <strong>but be careful</strong>, as it is already salty;</li>
+             <li>Wrap the pork meat leaving the belly without covering (do not forget to have enough foil to cover the belly after);</li>
+             <li>Put it in the fridge for not less than 5 hours (if you can leave for 24hs would be ideal)</li>
+             <li>After the period in the fridge, take the pork out and dry the belly as much as you can with a paper towel; </li>
+             <li>Cover the entire meat (including the belly) with the kitchen foil and place the baking tray in the oven, within 200 degrees for approximately 40min;</li>
+             <li>When you see it is cooked enough, open the foil to expose the belly, closing it as tight as possible to protect the meat;</li>
+             <li>Increase the oven's temperature to maximum (around 250 degrees) and wait for around 10-15 minutes, or until the belly looks crunchy; </li>
+         </ol>
+
+            <p>&ensp;Note: If you are wondering why putting the meat in the fridge, it is to dry the belly so it can be more crunchy. Same reason for the drying paper towel. </p>
+         
+    </div>
+    </div> <!--end of div recipe-->
+    </div> <!--end of class article-->
+    
+		</article>
+		
+	    </div>  <!--end of container div-->
+	
+	</main>
+   </div> <!--end of div maindiv-->    
+               
+
+</div> <!--end of content div-->
+	
+			<footer>
+                
+                <div id="footer">
+                    <div class="allanfooter">
+                        <h3>Allan Matwetwe</h3>
+                        <p id="id">Student ID </p>
+                    
+                        <a href="#"><img src="images/facebook.png" alt="facebook" width="20px"></a>
+                        <a href="#"><img src="images/instagram.png" alt="instagram" width="20px"></a>
+                    </div> <!--end of div allanfooter-->
+                    
+                    <div class="aureliafooter">
+                    <h3>Aurelia Luszcz</h3>
+                    <p id="id">Student ID 3048563</p>
+                
+                    <a href="https://www.facebook.com/aurelialuszcz"><img src="images/facebook.png" alt="facebook" width="20px"></a>
+                    <a href="https://www.instagram.com/ohreallyeah_photography/"><img src="images/instagram.png" alt="instagram" width="20px"></a>
+                    </div> <!--end of div aureliafooter-->
+    
+                    <div class="mairafooter">
+                        <h3>Maíra Sá Araújo</h3>
+                        <p id="id">Student ID 3061003</p>
+                    
+                        <a href="https://www.facebook.com/mairoviskis"><img src="images/facebook.png" alt="facebook" width="20px"></a>
+                        <a href="https://www.instagram.com/mairoviskis/"><img src="images/instagram.png" alt="instagram" width="20px"></a>
+                        </div> <!--end of div mairafooter-->
+                
+                    </div> <!--end of divfooter-->
+			</footer>						
+
+ </body>
+		
+
+
+</html>

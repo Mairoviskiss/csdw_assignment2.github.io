@@ -1,0 +1,325 @@
+body {
+    font-family: Helvetica Neue, sans-serif;
+    background-image: url("images/background.jpg");     
+    background-size:cover;    
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    opacity: 0.9;   
+}
+
+#masthead {
+    width: 1000px;
+    margin: 0 auto;
+    height: 200px;
+    margin: 0 auto;
+    background-position: center;
+    background-size: cover;    
+    background-repeat: no-repeat;
+    padding: 1.5rem; 
+    
+}
+
+.content {
+    width: 1048px;
+    margin: 0 auto;   
+    background-color: rgb(232, 213, 235);
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    
+
+}
+
+ main {
+  width: 90%;
+   
+}
+
+
+.content nav ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 17rem;   
+    left: 0rem;
+    overflow-x: hidden;
+  }
+
+  .navigation ul {
+      list-style-type: none;
+  }
+
+  .navigation a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 15px 15px 15px 0px;
+  }
+  
+  .navigation a:hover {
+    color: black;
+  }
+
+  .bars {
+    display: flex;
+    position: relative;
+    right: 28rem;
+    top: -6.5rem;
+    display: inline-block;
+    cursor: pointer;
+    
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+
+.article {
+
+    margin-bottom: 3rem;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #BFACB5;
+}
+
+article h2 {
+    font-size: 2rem;
+    margin: 0;
+   
+}
+
+
+article header {
+    margin-top: 0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #7F7B82;
+    text-align: center;
+}
+
+.author {
+    font-size: 15px;
+    padding-bottom: 0;
+}
+
+#recipetext p {
+    text-align:justify;
+}
+
+main a {
+    color: #7F7B82;
+    text-decoration: none;
+}
+
+#maindiv {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1;
+    padding: 1.5rem; 
+}
+
+.container #Firstfood {
+    display: flex;
+    position: relative;
+    float: left;
+    margin-top: 0;
+
+}
+
+.slideshow img {
+    padding: 10px;
+}
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+.container #recipe {
+    display: flex;
+    position: relative;
+    left: 10px;
+    text-align: justify;
+}
+
+
+.article-footer {
+    text-align: right;
+    margin-bottom: 4rem;
+
+}
+
+.article-footer a {
+    color: white;
+    background-color: #7F7B82;
+    padding: 1rem;
+} 
+
+
+
+footer {
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #172121;
+    padding: 1.5rem;
+    color: white;
+}
+
+#footer {
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  
+}
+
+.allanfooter{
+  grid-column-start: 0;
+  grid-column-end: 1;
+}
+
+.aureliafooter {
+   grid-column-start: 1;
+   grid-column-end: 2;
+}
+
+.mairafooter {
+   grid-column-start: 2;
+   grid-column-end: 3;
+   
+}
+
+
+footer a {
+    color: white; 
+    background-color:#172121;
+
+    
+}
+
+/* DIFFERENT SCREENS */
+
+/* MOBILE */
+
+@media screen and (max-width: 480px) {
+
+    .container {
+ 
+        width: 320px;
+ 
+    }
+ 
+ }
+ 
+ /* TABLETS */
+ 
+ @media screen and (min-width: 481px) and (max-width: 720px) {
+ 
+    body {
+ 
+        width: 480px;
+ 
+    }
+ 
+ }
+ 
+ /* SMALL DESKTOP OR LARGE TABLETS */
+ 
+ @media screen and (min-width: 721px) and (max-width: 960px) {
+ 
+    body {
+ 
+        width: 720px;
+ 
+    }
+ 
+ }
+ 
+ /* STANDARD DESKTOP */
+ 
+ @media screen and (min-width: 961px) and (max-width: 1200px) {
+ 
+    body {
+ 
+        width: 960px;
+ 
+    }
+ 
+ }
+ 
+ /* LARGE DESKTOP */
+ 
+ @media screen and (min-width: 1201px) and (max-width: 1600px) {
+ 
+    .body {
+ 
+        width: 1200px;
+ 
+    }
+ 
+ }
+ 
+ /* EXTRA LARGE DESKTOP */
+ 
+ @media screen and (min-width: 1601px) {
+ 
+    body {
+ 
+        width: 1600px;
+ 
+    }
+ 
+ }
+
+ 

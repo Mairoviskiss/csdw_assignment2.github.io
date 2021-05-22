@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<div id="page">
+<meta charset="utf-8">	
+
+
+		<head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="apple-mobile-web-app-capable" content="yes"> 
+			<link rel="stylesheet" href="styleexample.css"/>
+            <script src="script.js"></script>
+			<title>Assignment 2 - Allan, Aurelia and Maira </title>
+		</head>
+		
+ <body>
+
+		<header id="masthead">
+              
+					
+		</header> <!--end of masthead-->
+
+            <div class="navigation">
+            <nav>
+				
+                <ul>
+                    
+                    <div>
+                    <li><a href="index.html"> <img src="images/home.png" width="20px">&nbsp;Home</a>
+                    </li>     
+                    </div>                                  
+                    <div>
+                    <li><a href="aboutUs.html"> <img src="images/people.png" width="20px">&nbsp;About us</a></li>
+                    </div>
+                    <div>
+                    <li><a href="chillifood.html"> <img src="images/chilli.png" width="20px">&nbsp;Spicy</a></li> 
+                    </div>
+                    <div>
+                    <li><a href="nonchilli.html"> <img src="images/mild.png" width="20px">&nbsp;Mild</a></li>
+                    </div> 
+                    <div> 
+                    <li><a href="sweetdishes.html"> <img src="images/sweet.png" width="20px">&nbsp;Sweet</a></li> 
+                    <li><a href="africanCuisine.html"> <img src="images/african.jpg" width="20px">&nbsp;African<br/>Cuisine</a></li> 
+                    </div>
+                
+            
+                </ul>
+               
+                 </nav> 
+	
+           </div> <!--end of navigation-->   
+
+
+<div class ="content">
+
+	<div id="maindiv">
+     <main>
+	
+       <div class="container">
+
+		   <article>	
+							
+			   <header>
+			      <h2>Welcome to our most excellent cooking/baking hybrid website!</h2>
+				  <p class="author"><em><strong>By Allan, Aurelia and Maíra &#9825;</strong></em></p>
+			    
+		       </header>
+
+			 <div class="article">
+
+
+            <div id="recipe">
+               <div id="recipetext">
+
+                   <h2>We wanted to share our love for food with the world!</h2>
+
+                        <div style="width:50%;height:0;padding-bottom:10rem;position:relative;" id="eating">
+                            <iframe src="https://giphy.com/embed/GnCc88zZhSVUc" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                        </div>
+                      
+                   <p id="text">
+                   As you move around the website you will find the most amazing and tested recipes.<br>
+                   You will definitely find something you like, whether it's a cake or a delicious main dish!<br>
+                   &#8592; Use the side navigation to guide you through the website<br>
+                   If you find something you really like, please let us know in the form below, we would love to hear from you! </p>
+                   
+
+                   <div class="comments">
+                    <label for="example">Your Name:</label>
+                    <br><br>
+                    <input id="name" type="text" name="username" size="20">
+                    <br><br>
+                    <label for="example">Leave a comment:</label>
+                    <br><br>
+                    <input id="comment" type="text" name="usercomment" size="20">
+                    <br><br>
+                    <button type="button" onclick="comment()">Submit!</button>
+                </div>
+                  <p id="reply"></p>
+
+                </div>
+            </div> <!--end of div recipe-->
+             </div> <!--end of class article-->
+
+		</article>
+		
+	    </div>  <!--end of container div-->
+	
+	</main>
+   </div> <!--end of div maindiv-->
+   
+</div> <!--end of content div-->
+	
+			<footer>
+
+                <div id="footer">
+                    <div class="allanfooter">
+                        <h3>Allan Matwetwe</h3>
+                        <p id="id">Student ID </p>
+                    
+                        <a href="#"><img src="images/facebook.png" alt="facebook" width="20px"></a>
+                        <a href="#"><img src="images/instagram.png" alt="instagram" width="20px"></a>
+                    </div> <!--end of div allanfooter-->
+                    
+                    <div class="aureliafooter">
+                    <h3>Aurelia Luszcz</h3>
+                    <p id="id">Student ID 3048563</p>
+                
+                    <a href="https://www.facebook.com/aurelialuszcz"><img src="images/facebook.png" alt="facebook" width="20px"></a>
+                    <a href="https://www.instagram.com/ohreallyeah_photography/"><img src="images/instagram.png" alt="instagram" width="20px"></a>
+                    </div> <!--end of div aureliafooter-->
+
+                    <div class="mairafooter">
+                        <h3>Maíra Sá Araújo</h3>
+                        <p id="id">Student ID 3061003</p>
+                    
+                        <a href="https://www.facebook.com/mairoviskis"><img src="images/facebook.png" alt="facebook" width="20px"></a>
+                        <a href="https://www.instagram.com/mairoviskis/"><img src="images/instagram.png" alt="instagram" width="20px"></a>
+                        </div> <!--end of div mairafooter-->
+			
+                </div> <!--end of divfooter-->
+
+                </footer>						
+	
+ </body>
+ <script>
+
+function comment() {
+    document.getElementById("reply").innerHTML = "Thank you for your comment!";
+}
+
+  </script>
+
+</html>
