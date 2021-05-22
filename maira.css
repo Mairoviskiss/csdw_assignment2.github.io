@@ -215,6 +215,11 @@ footer {
     grid-column-end: 1;
  }
  
+ .allanfooter{
+    grid-column-start: 0;
+    grid-column-end: 1;
+ }
+ 
  .aureliafooter {
      grid-column-start: 1;
      grid-column-end: 2;
